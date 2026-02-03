@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="gyak2.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:gyak2.Views"
+    Title="gyak2">
+
+    <FlyoutItem Title="List all mobile">
+    <ShellContent
+        Title="List all mobile"
+        ContentTemplate="{DataTemplate local:ListAllMobileView}"
+         />
+    </FlyoutItem>
+    <FlyoutItem Title="Add new mobile">
+        <ShellContent
+    Title="Add new mobile"
+    ContentTemplate="{DataTemplate local:UpdateOrCreateMobileView}"
+     />
+    </FlyoutItem>
+</Shell>
