@@ -1,0 +1,20 @@
+.navbar-nav{
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-item{
+    margin-right: 10px;
+}
+
+.card{
+    height: 350px;
+}
+
+.card > img{
+    height: 130px;
+}
+
+#card2, #card3{
+    padding: 5px;
+}

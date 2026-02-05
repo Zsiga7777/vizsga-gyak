@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             xmlns:viewmodels="clr-namespace:MauiApp1.ViewModels"
+             xmlns:models="clr-namespace:MauiApp1.Models"
+             x:DataType="viewmodels:ListPageViewModel"
+             x:Class="MauiApp1.Views.ListPageView"
+             Title=""
+             x:Name="this">
+
+    <ContentPage.Behaviors>
+        <toolkit:EventToCommandBehavior EventName="Appearing" Command="{Binding OnAppearing}" BindingContext="{Binding Source={x:Reference this}, Path=BindingContext}"/>
+    </ContentPage.Behaviors>
+    <VerticalStackLayout>
+
+        <Picker ItemsSource="{Binding Owners}" SelectedItem="{Binding SelectedOwner}">
+            <Picker.Behaviors>
+                <toolkit:EventToCommandBehavior EventName="SelectedIndexChanged" Command="{Binding OnOwnerSelected}" BindingContext="{Binding Source={x:Reference this}, Path=BindingContext}"/>
+            </Picker.Behaviors>
+        </Picker>
+        <Entry Text="{Binding SearchText}"/>
+        <Button Text="Keresés" Command="{Binding OnSearch}"/>
+        <Label Text="Találatok száma:"/>
+        <Label Text=""/>
+        <CollectionView ItemsSource="{Binding SearchedRestaurants}">
+            <CollectionView.ItemTemplate>
+                <DataTemplate x:DataType="models:Restaurant">
+                    <Border>
+                        <StackLayout>
+                        <Label Text="{Binding Name}"/>
+                            <Label Text="{Binding OwnerName}"/>
+                        </StackLayout>
+                    </Border>
+                </DataTemplate>
+                
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+        
+    </VerticalStackLayout>
+</ContentPage>
