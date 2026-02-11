@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewModels="clr-namespace:MauiApp1.ViewModels"
+             xmlns:models="clr-namespace:MauiApp1.Models"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             x:DataType="viewModels:StatisticalViewModel"
+             x:Class="MauiApp1.Views.StatisticalView"
+             x:Name="this">
+    <ContentPage.Behaviors>
+        <toolkit:EventToCommandBehavior EventName="Appearing" Command="{Binding OnAppearingCommand}" BindingContext="{Binding Source={x:Reference this}, Path=BindingContext}"/>
+    </ContentPage.Behaviors>
+    <VerticalStackLayout>
+        <Label>
+            <Label.FormattedText>
+                <FormattedString>
+                    <Span Text="Éttermek száma: "/>
+                    <Span Text="{Binding NumberOfRestaurants}"/>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
+        
+        <Label>
+            <Label.FormattedText>
+                <FormattedString>
+                    <Span Text="Tulajdonosok száma: "/>
+                    <Span Text="{Binding NumberOfOwners}"/>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="80"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Label Text="Tulajdonos" Grid.Row="0" Grid.Column="0"/>
+            <Label Text="Éttermek száma" Grid.Row="0" Grid.Column="1"/>
+
+            <CollectionView Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="2" ItemsSource="{Binding OwnerPlusNumberOfRestaurants}">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate x:DataType="models:OwnerPlusNumberOfRestaurants">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Label Text="{Binding OwnerName}"  Grid.Column="0"/>
+                            <Label Text="{Binding NumberOfRestaurants}"  Grid.Column="1"/>
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+            
+        </Grid>
+        <Label Text="Keresés"/>
+        <Entry Text="{Binding SearchedText}">
+            <Entry.Behaviors>
+                <toolkit:EventToCommandBehavior EventName="TextChanged" Command="{Binding TextChangedCommand}" BindingContext="{Binding Source={x:Reference this}, Path=BindingContext}"/>
+            </Entry.Behaviors>
+        </Entry>
+        <Label>
+            <Label.FormattedText>
+                <FormattedString>
+                    <Span Text="Éttermek száma, amik megfelelnek a keresésnek: "/>
+                    <Span Text="{Binding NumberOfRestaurantsThatHasTheSearcedText}"/>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
+        <Label>
+            <Label.FormattedText>
+                <FormattedString>
+                    <Span Text="Van olyan étterem ahol a bevétel nagyobb, mint 300: "/>
+                    <Span Text="{Binding RestaurantBiggerIncomThan300}"/>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
+    </VerticalStackLayout>
+</ContentPage>

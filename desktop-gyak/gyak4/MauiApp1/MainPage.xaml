@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             xmlns:viewModel="clr-namespace:MauiApp1.ViewModels"
+             xmlns:models="clr-namespace:MauiApp1.Models"
+             x:DataType="viewModel:MainPageViewModel"
+             x:Class="MauiApp1.MainPage"
+             x:Name="this">
+
+    <ContentPage.Behaviors>
+        <toolkit:EventToCommandBehavior EventName="Appearing" Command="{Binding OnAppearingCommand}" BindingContext="{Binding Source={x:Reference this}, Path=BindingContext}" />
+    </ContentPage.Behaviors>
+    
+    <ScrollView>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="80"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Label Text="Tulajdonos" Grid.Column="0" Grid.Row="0"/>
+            <Label Text="Étterem" Grid.Column="1" Grid.Row="0"/>
+            <Label Text="Bevétel" Grid.Column="2" Grid.Row="0"/>
+
+            <CollectionView Grid.Column="0" Grid.ColumnSpan="3" Grid.Row="1" ItemsSource="{Binding Restaurants}">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate x:DataType="models:Restaurant">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Label Text="{Binding OwnerName}" Grid.Column="0"/>
+                            <Label Text="{Binding Name}" Grid.Column="1"/>
+                            <Label Grid.Column="2">
+                                <Label.FormattedText>
+                                    <FormattedString>
+                                        <Span Text="{Binding Income}"/>
+                                        <Span Text=" Ft"/>
+                                    </FormattedString>
+                                </Label.FormattedText>
+                            </Label>
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </Grid>
+    </ScrollView>
+
+</ContentPage>
