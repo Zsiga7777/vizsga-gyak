@@ -14,6 +14,7 @@ namespace MauiApp1
         {
             Routing.RegisterRoute(MainPage.Name, typeof(MainPage));
             Routing.RegisterRoute(StatisticalView.Name, typeof(StatisticalView));
+            Routing.RegisterRoute(IncomeView.Name, typeof(IncomeView));
         }
     }
 }

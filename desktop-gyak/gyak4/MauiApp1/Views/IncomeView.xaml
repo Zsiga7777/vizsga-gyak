@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.Views.IncomeView"
+              xmlns:viewModels="clr-namespace:MauiApp1.ViewModels"
+ xmlns:models="clr-namespace:MauiApp1.Models"
+ xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+ x:DataType="viewModels:IncomeViewModel"
+             Title="IncomeView"
+             x:Name="this">
+    <ContentPage.Behaviors>
+        <toolkit:EventToCommandBehavior EventName="Appearing" Command="{Binding OnAppearingCommand}" BindingContext="{Binding Source={x:Reference this}, Path=BindingContext}"/>
+    </ContentPage.Behaviors>
+    <VerticalStackLayout>
+        <Label>
+            <Label.FormattedText>
+                <FormattedString>
+                    <Span Text="Össz bevétel:"/>
+                    <Span Text="{Binding SumOfIncome}"/>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
+        <Label>
+            <Label.FormattedText>
+                <FormattedString>
+                    <Span Text="Átlag bevétel:"/>
+                    <Span Text="{Binding AverageIncome}"/>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
+
+        <Label>
+            <Label.FormattedText>
+                <FormattedString>
+                    <Span Text="Legnagyobb bevétel:"/>
+                    <Span Text="{Binding MaxIncome}"/>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
+
+        <Label>
+            <Label.FormattedText>
+                <FormattedString>
+                    <Span Text="Legkisebb bevétel:"/>
+                    <Span Text="{Binding MinIncome}"/>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
+
+        <Label>
+            <Label.FormattedText>
+                <FormattedString>
+                    <Span Text="Éttermek száma melyek bevétele nagyobb az átlagnál:"/>
+                    <Span Text="{Binding NumberOfRestaurantsAboveAverage}"/>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
+
+        <Label>
+            <Label.FormattedText>
+                <FormattedString>
+                    <Span Text="Különbség a legnagyobb és a legkissebb bevétel között:"/>
+                    <Span Text="{Binding DifferenceBetweenMinAndMax}"/>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
+    </VerticalStackLayout>
+</ContentPage>

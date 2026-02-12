@@ -13,9 +13,11 @@ public static class DIConfiguration
 
         builder.Services.AddTransient<MainPage>();
         builder.Services.AddTransient<StatisticalView>();
+        builder.Services.AddTransient<IncomeView>();
 
         builder.Services.AddTransient<MainPageViewModel>();
         builder.Services.AddTransient<StatisticalViewModel>();
+        builder.Services.AddTransient<IncomeViewModel>();
 
         return builder;
     }

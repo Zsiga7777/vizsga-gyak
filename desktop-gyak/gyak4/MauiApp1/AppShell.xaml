@@ -15,4 +15,7 @@
     <FlyoutItem Title="Statisztika">
         <ShellContent Title="Statisztika" ContentTemplate="{DataTemplate views:StatisticalView}"/>
     </FlyoutItem>
+    <FlyoutItem Title="Bevételhez kapcsolódó számítások">
+        <ShellContent Title="Bevételhez kapcsolódó számítások" ContentTemplate="{DataTemplate views:IncomeView}"/>
+    </FlyoutItem>
 </Shell>
