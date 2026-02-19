@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:models="clr-namespace:gyak5.Models"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             xmlns:viewModels="clr-namespace:gyak5.ViewModels"
+             x:DataType="viewModels:MainPageViewModel"
+             x:Class="gyak5.MainPage"
+             x:Name="this">
+
+    <ContentPage.Behaviors>
+        <toolkit:EventToCommandBehavior EventName="Appearing" Command="{Binding OnAppearingCommand}" BindingContext="{Binding Source={x:Reference this}, Path=BindingContext}"/>
+    </ContentPage.Behaviors>
+    <ScrollView HorizontalOptions="Center" >
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="800"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="660"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Picker ItemsSource="{Binding Szofajok}" Grid.Row="0" Grid.Column="0" WidthRequest="200" SelectedItem="{Binding KivalasztottSzofaj}"/>
+            <Button Text="kiválaszt" Grid.Row="0" Grid.Column="0" WidthRequest="200" HorizontalOptions="End" Command="{Binding OnChangeCommand}" />
+            <Grid Grid.Row="1" Grid.Column="0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="60"/>
+                    <ColumnDefinition Width="200"/>
+                    <ColumnDefinition Width="200"/>
+                    <ColumnDefinition Width="200"/>
+                </Grid.ColumnDefinitions>
+                <Border Grid.Column="0">
+                    <Label Text="Szófaj"/>
+                </Border>
+                <Border Grid.Column="1">
+                    <Label Text="Szótő"/>
+                </Border>
+                <Border Grid.Column="2">
+                    <Label Text="Gyakoriság"/>
+                </Border>
+            </Grid>
+            <CollectionView ItemsSource="{Binding Szavak}" Grid.Row="2" Grid.Column="0">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate x:DataType="models:Szo" >
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="60"/>
+                                <ColumnDefinition Width="200"/>
+                                <ColumnDefinition Width="200"/>
+                                <ColumnDefinition Width="200"/>
+                            </Grid.ColumnDefinitions>
+                            <Border Grid.Column="0">
+                                <Label Text="{Binding Szofaj}"/>
+                            </Border>
+                            <Border Grid.Column="1">
+                                <Label Text="{Binding Szoto}"/>
+                            </Border>
+                            <Border Grid.Column="2">
+                                <Label Text="{Binding Gyakori}"/>
+                            </Border>
+                            <Border Grid.Column="3">
+                                <Button Text="Frissítés" Command="{Binding BindingContext.OnUpdateCommand, Source={x:Reference this}}" 
+                                        CommandParameter="{Binding Azon}"/>
+                            </Border>
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+            <Border Grid.Row="0" Grid.RowSpan="3" Grid.Column="1" IsVisible="{Binding IsChangeVisible}">
+                <StackLayout>
+                    <Label Text="Változtatás"/>
+                    <Label Text="Gyakoriság:"/>
+                    <Entry Text="{Binding SelectedWordCount}"/>
+                    <Button Text="mentés" WidthRequest="100" Command="{Binding OnSaveCommand}"/>
+                </StackLayout>
+            </Border>
+        </Grid>
+    </ScrollView>
+
+</ContentPage>

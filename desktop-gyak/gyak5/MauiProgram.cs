@@ -1,0 +1,28 @@
+﻿using CommunityToolkit.Maui;
+using CommunityToolkit.Maui.Core;
+using gyak5.Configurations;
+using Microsoft.Extensions.Logging;
+
+namespace gyak5
+{
+    public static class MauiProgram
+    {
+        public static MauiApp CreateMauiApp()
+        {
+            var builder = MauiApp.CreateBuilder();
+            builder
+                .UseMauiApp<App>().UseMauiCommunityToolkit().CongigureDi()
+                .ConfigureFonts(fonts =>
+                {
+                    fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
+                    fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
+                });
+
+#if DEBUG
+    		builder.Logging.AddDebug();
+#endif
+
+            return builder.Build();
+        }
+    }
+}
