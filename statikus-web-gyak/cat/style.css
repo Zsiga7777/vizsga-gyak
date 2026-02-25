@@ -1,0 +1,34 @@
+.navbar-nav{
+    display: flex;
+    flex-direction: row;
+}
+
+nav>a>img{
+    height: 50px;
+    border-radius: 360px;
+}
+
+.nav-item{
+    margin-left: 20px;
+}
+
+h1{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.bekezd{
+    text-align: justify;
+}
+
+.card-img-top{
+    width: 100%;
+    height: 300px;
+}
+
+@media screen and (max-width : 576px) {
+    .navbar-nav{
+    display: flex;
+    flex-direction: column;
+}
+}
