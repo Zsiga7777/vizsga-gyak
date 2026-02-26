@@ -1,0 +1,56 @@
+krimi:
+	-Christie Agatha, 15/09/1890: T�z kicsi n�ger, 9789630788984, EUR�PA K�NYVKIAD� KFT., 2010, 2090 Ft, krimi, 266, 785 Ft
+	-Christie Agatha, 15/09/1890: A v�ratlan vend�g, 9789635490479, EUR�PA K�NYVKIAD� KFT., 2004, 1406 Ft, krimi, 200, 835 Ft
+	-Christie Agatha, 15/09/1890: �s elj� a hal�l..., 9789630786430, EUR�PA K�NYVKIAD� KFT., 2007, 1900 Ft, krimi, 292, 27 Ft
+	-Christie Agatha, 15/09/1890: A v�d tan�ja, 963841345X, Hunga-Print, 1994, 3000 Ft, krimi, 254, 705 Ft
+	-Christie Agatha, 15/09/1890: �jf�lt�jt, 9789630786249, EUR�PA K�NYVKIAD� KFT., 2008, 1900 Ft, krimi, 272, 412 Ft
+	-Fable Vavyan, 20/03/1956: T�zvar�zs, 9789639300347, FABYEN KIAD�, 2010, 1836 Ft, krimi, 488, 436 Ft
+	-Fable Vavyan, 20/03/1956: V�szbej�rat, 9789639300279, Fabyen Kiad�, 2008, 2095 Ft, krimi, 472, 399 Ft
+	-Fable Vavyan, 20/03/1956: �bredj velem!, 9639300200, T�th�gas Kiad�, 2007, 1668 Ft, krimi, 490, 14 Ft
+	-King Stephen, 21/09/1947: A t�zgy�jt�, 9789630786836, EUR�PA K�NYVKIAD� KFT., 2010, 3040 Ft, krimi, 520, 333 Ft
+
+sci-fi:
+	-King Stephen, 21/09/1947: �lomcsapda, 9630779501, EUR�PA K�NYVKIAD� KFT., 2006, 1870 Ft, sci-fi, 752, 90 Ft
+	-Harrison Harry, 12/03/1925: Fagyos �den, 9789639828605, METROPOLIS MEDIA GROUP, 2010, 3791 Ft, sci-fi, 460, 499 Ft
+
+horror:
+	-King Stephen, 21/09/1947: Hasznos holmik, 9630778246, EUR�PA K�NYVKIAD� KFT., 2005, 1683 Ft, horror, 720, 738 Ft
+
+thriller:
+	-King Stephen, 21/09/1947: Dolores, 9600781875, EUR�PA K�NYVKIAD� KFT., 2006, 2125 Ft, thriller, 264, 985 Ft
+
+term�szettudom�ny:
+	-Asimov Isaac, 02/01/1920: A biol�gia r�vid t�rt�nete, 11111111111, Gondolat Kiad�, 1972, 1200 Ft, term�szettudom�ny, 278, 514 Ft
+	-Allaby Michael, 06/04/1933: A F�ld enciklop�di�ja, 9789630961615, KOSSUTH KIAD� ZRT., 2010, 9491 Ft, term�szettudom�ny, 608, 881 Ft
+	-Hutchinson Robert, 12/11/1957: A F�ld enciklop�di�ja, 9789630961615, KOSSUTH KIAD� ZRT., 2010, 9491 Ft, term�szettudom�ny, 608, 27 Ft
+	-Attenborough David, 08/05/1926: Az �let er�pr�b�i, 9638227117, PARK K�NYVKIAD� KFT., 1994, 1701 Ft, term�szettudom�ny, 326, 285 Ft
+	-Attenborough David, 08/05/1926: Az �l� bolyg� - a f�ld mai arculata, 9635300077, PARK K�NYVKIAD� KFT., 1994, 2081 Ft, term�szettudom�ny, 324, 600 Ft
+	-Attenborough David, 08/05/1926: Az els� �denkert, 9630267217, PARK K�NYVKIAD� KFT., 1989, 1200 Ft, term�szettudom�ny, 238, 273 Ft
+	-Sparks John, 11/08/1943: Az �ce�n, 9789639693456, M�rt�k Kiad�, 2007, 11042 Ft, term�szettudom�ny, 512, 706 Ft
+	-Dinwiddie Robert, 27/07/1963: Az �ce�n, 9789639693456, M�rt�k Kiad�, 2007, 11042 Ft, term�szettudom�ny, 512, 186 Ft
+	-Dinwiddie Robert, 27/07/1963: Az univerzum, 963-967-800-7, IKAR Kiad�, 2007, 11042 Ft, term�szettudom�ny, 512, 749 Ft
+	-Eales Philip, 05/05/1970: Az �ce�n, 9789639693456, M�rt�k Kiad�, 2007, 11042 Ft, term�szettudom�ny, 512, 483 Ft
+	-Eales Philip, 05/05/1970: Az univerzum, 963-967-800-7, IKAR Kiad�, 2007, 11042 Ft, term�szettudom�ny, 512, 737 Ft
+	-Cousteau Fabien, 15/09/1890: Az �ce�n, 9789639693456, M�rt�k Kiad�, 2007, 11042 Ft, term�szettudom�ny, 512, 990 Ft
+
+sz�pirodalom:
+	-Asimov Isaac, 02/01/1920: A Hold trag�di�ja, 22222222222, Kozmosz K�nyvek, 1979, 1500 Ft, sz�pirodalom, 310, 927 Ft
+	-J�kai M�r, 18/02/1825: A k�sz�v� ember fiai, 9789636451004, EUR�PA K�NYVKIAD� KFT., 2006, 758 Ft, sz�pirodalom, 442, 924 Ft
+	-M�ra Ferenc, 19/07/1879: Aranykopors�, 9789630779180, EUR�PA K�NYVKIAD� KFT., 2005, 808 Ft, sz�pirodalom, 472, 961 Ft
+
+t�rt�nelem:
+	-Castelot Andr�, 23/01/1911: Nap�leon, 9500274612, EUR�PA K�NYVKIAD� KFT., 2004, 2300 Ft, t�rt�nelem, 653, 247 Ft
+	-Lefebvre Georges, 06/08/1874: Nap�leon, 963280256X, Gondolat, 1975, 1500 Ft, t�rt�nelem, 783, 160 Ft
+	-J�kai M�r, 18/02/1825: 1848 - a magyar szabads�gharcz 1848-49-ben, 9789630960519, KOSSUTH KIAD� ZRT., 2009, 6641 Ft, t�rt�nelem, 476, 630 Ft
+
+mesek�nyv:
+	-J�kai M�r, 18/02/1825: A gyevi t�rv�ny - Tanuls�gos mes�k, mond�k M�ty�s kir�lyr�l, 9789639581197, NAGYK�NYV KIAD�, 2010, 1511 Ft, mesek�nyv, 48, 320 Ft
+	-M�ra Ferenc, 19/07/1879: A gyevi t�rv�ny - Tanuls�gos mes�k, mond�k M�ty�s kir�lyr�l, 9789639581197, NAGYK�NYV KIAD�, 2010, 1511 Ft, mesek�nyv, 48, 869 Ft
+	-M�ra Ferenc, 19/07/1879: A nagyhatalm� s�ndiszn�cska, 9789633468814,  HOLNAP KIAD� KFT., 2010, 1615 Ft, mesek�nyv, 14, 828 Ft
+
+informatika:
+	-Fowler Martin, 21/09/1963: Refactoring - K�djav�t�s �jratervez�ssel, 9639637130, Kiskapu Kiad�, 2006, 5525 Ft, informatika, 372, 846 Ft
+	-Fowler Martin, 21/09/1963: Domain-Specific Languages, 9780321712943, Addison-Wesley Professional, 2010, 8735 Ft, informatika, 640, 58 Ft
+	-Gamma Erich, 31/12/1961: Design Patterns: Elements of Reusable Object-Oriented Software, 9780201633610, Addison-Wesley Professional, 1994, 5980 Ft, informatika, 416, 445 Ft
+	-Gamma Erich, 31/12/1961: Programtervez�si mint�k - �jrahasznos�that� elemek objektumk�zpont� programokhoz, 9639301779, Kiskapu - Addison-Wesley, 2004, 5980 Ft, informatika, 421, 726 Ft
+

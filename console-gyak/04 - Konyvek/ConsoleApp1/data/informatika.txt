@@ -1,0 +1,4 @@
+Fowler Martin, 21/09/1963: Refactoring - K�djav�t�s �jratervez�ssel, 9639637130, Kiskapu Kiad�, 2006, 5525 Ft, informatika, 372, 846 Ft
+Fowler Martin, 21/09/1963: Domain-Specific Languages, 9780321712943, Addison-Wesley Professional, 2010, 8735 Ft, informatika, 640, 58 Ft
+Gamma Erich, 31/12/1961: Design Patterns: Elements of Reusable Object-Oriented Software, 9780201633610, Addison-Wesley Professional, 1994, 5980 Ft, informatika, 416, 445 Ft
+Gamma Erich, 31/12/1961: Programtervez�si mint�k - �jrahasznos�that� elemek objektumk�zpont� programokhoz, 9639301779, Kiskapu - Addison-Wesley, 2004, 5980 Ft, informatika, 421, 726 Ft
