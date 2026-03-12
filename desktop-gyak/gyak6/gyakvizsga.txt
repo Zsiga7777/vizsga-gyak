@@ -1,0 +1,26 @@
+// Scaffold előkészítése
+// 1. Letölti a projektben használt NuGet csomagokat
+dotnet restore
+// 2. Ez projekt szinten tárolja a CLI eszközöket, létrehoz egy .config/dotnet-tools.json fájlt
+dotnet new tool-manifest --force
+// 3. dotnet-ef lokális telepítése
+dotnet tool install --local dotnet-ef --version 8.*
+
+// Szükséges nuget csomagok
+ <ItemGroup>
+   <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite.Core" Version="8.0.23" />
+   <PackageReference Include="SQLitePCLRaw.core" Version="3.0.2" />
+   <PackageReference Include="SQLitePCLRaw.bundle_e_sqlite3" Version="3.0.2" />
+   <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="8.0.3" />
+   <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.23"/>
+ </ItemGroup>
+ //Desktop:
+   <PackageReference Include="CommunityToolkit.Mvvm" Version="8.4.0" />
+ 
+// Scaffold
+//Sqlite
+dotnet ef dbcontext scaffold "Data Source=Data\Database\DATABASE.db" Microsoft.EntityFrameworkCore.Sqlite -o DbSqliteModels
+dotnet ef dbcontext scaffold "Data Source=Data\Database\DATABASE.db" Microsoft.EntityFrameworkCore.Sqlite -o DbSqliteModels -f
+// MySql
+dotnet ef dbcontext scaffold "Server=localhost;Database=DATABASE;User=root;Password=;" Pomelo.EntityFrameworkCore.MySql -o DbMysqlModels
+dotnet ef dbcontext scaffold "Server=localhost;Database=DATABASE;User=root;Password=;" Pomelo.EntityFrameworkCore.MySql -o DbMysqlModels -f

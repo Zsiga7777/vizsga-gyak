@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             xmlns:viewmodels ="clr-namespace:MauiApp1.viewmodels"
+             xmlns:models ="clr-namespace:MauiApp1.models"
+             x:DataType="viewmodels:MainPageViewModel"
+             x:Class="MauiApp1.MainPage"
+             x:Name="this">
+
+    <ContentPage.Behaviors>
+        <toolkit:EventToCommandBehavior EventName="Appearing" Command="{Binding OnAppearingCommand}" BindingContext="{Binding Source={x:Reference this}, Path=BindingContext}"/>
+    </ContentPage.Behaviors>
+    <StackLayout>
+        <Label>
+            <Label.FormattedText>
+                <FormattedString>
+                    <Span Text="Szegeden összesen "/>
+                    <Span Text="{Binding NumberOfMeres}"/>
+                    <Span Text="mérés történt a héten. "/>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
+        <Label Text="13 °C feletti mérések"/>
+        <CollectionView ItemsSource="{Binding MeresekAbove13Celsius}">
+            <CollectionView.ItemTemplate>
+                <DataTemplate x:DataType="models:MeresModel">
+                    <StackLayout>
+                    <Label Text="{Binding Day}"/>
+                    <Label Text="{Binding City}"/>
+                    <Label Text="{Binding TemperatureCelsius}"/>
+                        <Label Text="{Binding ChangeFromPreviousDay}"/>
+                    </StackLayout>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+        <Label>
+            <Label.FormattedText>
+                <FormattedString>
+                    <Span Text="Miskolc legmagasabb hőmérséklete: "/>
+                    <Span Text="{Binding MaxTempInMiskolc}"/>
+                    <Span Text="°C"/>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
+        <Label>
+            <Label.FormattedText>
+                <FormattedString>
+                    <Span Text="A hét átlaghőmérséklete: "/>
+                    <Span Text="{Binding AverageTemp, StringFormat='{0:F2}'}"/>
+                    <Span Text="°C"/>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
+        <Label>
+            <Label.FormattedText>
+                <FormattedString>
+                    <Span Text="A héten "/>
+                    <Span Text="{Binding NumberOfDecreses}"/>
+                    <Span Text=" alkalommal csökkent a hőmérséklet."/>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
+        <Label>
+            <Label.FormattedText>
+                <FormattedString>
+                    <Span Text="A legnagyobb emelkedés: "/>
+                    <Span Text="{Binding BiggestTempIncrease.City}"/>
+                    <Span Text=" - "/>
+                    <Span Text="{Binding BiggestTempIncrease.Day}"/>
+                    <Span Text=" - "/>
+                    <Span Text="{Binding BiggestTempIncrease.TemperatureCelsius}"/>
+                    <Span Text=" °C"/>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
+    </StackLayout>
+</ContentPage>
