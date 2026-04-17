@@ -1,0 +1,101 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\b1nagmat2\\Desktop\\Asztalalk\\doga0319\\konzol\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B165E054-5B5B-E604-BFEB-B9595AC5EA5A}|konzol\\konzol.csproj|c:\\users\\b1nagmat2\\desktop\\asztalalk\\doga0319\\konzol\\konzol\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B165E054-5B5B-E604-BFEB-B9595AC5EA5A}|konzol\\konzol.csproj|solutionrelative:konzol\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B165E054-5B5B-E604-BFEB-B9595AC5EA5A}|konzol\\konzol.csproj|c:\\users\\b1nagmat2\\desktop\\asztalalk\\doga0319\\konzol\\konzol\\model\\factionship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B165E054-5B5B-E604-BFEB-B9595AC5EA5A}|konzol\\konzol.csproj|solutionrelative:konzol\\model\\factionship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B165E054-5B5B-E604-BFEB-B9595AC5EA5A}|konzol\\konzol.csproj|c:\\users\\b1nagmat2\\desktop\\asztalalk\\doga0319\\konzol\\konzol\\model\\ship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B165E054-5B5B-E604-BFEB-B9595AC5EA5A}|konzol\\konzol.csproj|solutionrelative:konzol\\model\\ship.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B165E054-5B5B-E604-BFEB-B9595AC5EA5A}|konzol\\konzol.csproj|c:\\users\\b1nagmat2\\desktop\\asztalalk\\doga0319\\konzol\\konzol\\star_trek_ships.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{B165E054-5B5B-E604-BFEB-B9595AC5EA5A}|konzol\\konzol.csproj|solutionrelative:konzol\\star_trek_ships.csv||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B165E054-5B5B-E604-BFEB-B9595AC5EA5A}|konzol\\konzol.csproj|c:\\users\\b1nagmat2\\desktop\\asztalalk\\doga0319\\konzol\\konzol\\model\\rolecount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B165E054-5B5B-E604-BFEB-B9595AC5EA5A}|konzol\\konzol.csproj|solutionrelative:konzol\\model\\rolecount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FactionShip.cs",
+              "DocumentMoniker": "C:\\Users\\b1nagmat2\\Desktop\\Asztalalk\\doga0319\\konzol\\konzol\\Model\\FactionShip.cs",
+              "RelativeDocumentMoniker": "konzol\\Model\\FactionShip.cs",
+              "ToolTip": "C:\\Users\\b1nagmat2\\Desktop\\Asztalalk\\doga0319\\konzol\\konzol\\Model\\FactionShip.cs",
+              "RelativeToolTip": "konzol\\Model\\FactionShip.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T07:04:09.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RoleCount.cs",
+              "DocumentMoniker": "C:\\Users\\b1nagmat2\\Desktop\\Asztalalk\\doga0319\\konzol\\konzol\\Model\\RoleCount.cs",
+              "RelativeDocumentMoniker": "konzol\\Model\\RoleCount.cs",
+              "ToolTip": "C:\\Users\\b1nagmat2\\Desktop\\Asztalalk\\doga0319\\konzol\\konzol\\Model\\RoleCount.cs",
+              "RelativeToolTip": "konzol\\Model\\RoleCount.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T06:58:13.763Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "star_trek_ships.csv",
+              "DocumentMoniker": "C:\\Users\\b1nagmat2\\Desktop\\Asztalalk\\doga0319\\konzol\\konzol\\star_trek_ships.csv",
+              "RelativeDocumentMoniker": "konzol\\star_trek_ships.csv",
+              "ToolTip": "C:\\Users\\b1nagmat2\\Desktop\\Asztalalk\\doga0319\\konzol\\konzol\\star_trek_ships.csv",
+              "RelativeToolTip": "konzol\\star_trek_ships.csv",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
+              "WhenOpened": "2026-03-19T06:40:57.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Ship.cs",
+              "DocumentMoniker": "C:\\Users\\b1nagmat2\\Desktop\\Asztalalk\\doga0319\\konzol\\konzol\\Model\\Ship.cs",
+              "RelativeDocumentMoniker": "konzol\\Model\\Ship.cs",
+              "ToolTip": "C:\\Users\\b1nagmat2\\Desktop\\Asztalalk\\doga0319\\konzol\\konzol\\Model\\Ship.cs",
+              "RelativeToolTip": "konzol\\Model\\Ship.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T06:35:39.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\b1nagmat2\\Desktop\\Asztalalk\\doga0319\\konzol\\konzol\\Program.cs",
+              "RelativeDocumentMoniker": "konzol\\Program.cs",
+              "ToolTip": "C:\\Users\\b1nagmat2\\Desktop\\Asztalalk\\doga0319\\konzol\\konzol\\Program.cs",
+              "RelativeToolTip": "konzol\\Program.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAowFEAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T06:34:12.414Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

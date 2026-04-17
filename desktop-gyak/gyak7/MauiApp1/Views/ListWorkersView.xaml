@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             xmlns:models="clr-namespace:MauiApp1.Models"
+             xmlns:viewModels="clr-namespace:MauiApp1.ViewModels"
+             x:DataType="viewModels:ListWorkersViewModel"
+             x:Class="MauiApp1.Views.ListWorkersView"
+             
+             x:Name="this"
+             Title="">
+    <ContentPage.Behaviors>
+        <toolkit:EventToCommandBehavior EventName="Appearing" Command="{Binding OnAppearingCommand}" BindingContext="{Binding Source={x:Reference this}, Path=BindingContext}"/>
+    </ContentPage.Behaviors>
+    <ScrollView>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="60"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+        <Label Text="Éves szabadságkeret: 45 nap" FontSize="Title" HorizontalOptions="Center" Grid.Row="0"/>
+        <CollectionView ItemsSource="{Binding Workers}" Grid.Row="1">
+            <CollectionView.ItemTemplate>
+                <DataTemplate x:DataType="models:WorkerModel">
+                    <Border Stroke="Black" StrokeThickness="2" Margin="10" Padding="10">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+                                    <RowDefinition Height="*"/>
+                                </Grid.RowDefinitions>
+                    <Label Grid.Row="0">
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span Text="Név: "/>
+                                <Span Text="{Binding Name}"/>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+
+                        <Label Grid.Row="1">
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span Text="Kivett napok száma: "/>
+                                <Span Text="{Binding TakenDay}"/>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+                                <Button Command="{Binding BindingContext.OnPatchCommand, Source={x:Reference this}}"
+                                        CommandParameter="{Binding Id}"
+                                        Text="Módosítás"
+                                        Grid.Row="2" WidthRequest="300"/>
+                            </Grid>
+                    </Border>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+        </Grid>
+    </ScrollView>
+</ContentPage>

@@ -1,0 +1,16 @@
+C:\Users\b1nagmat2\Desktop\Asztalalk\doga0319\konzol\konzol\bin\Debug\net10.0\konzol.exe
+C:\Users\b1nagmat2\Desktop\Asztalalk\doga0319\konzol\konzol\bin\Debug\net10.0\star_trek_ships.csv
+C:\Users\b1nagmat2\Desktop\Asztalalk\doga0319\konzol\konzol\bin\Debug\net10.0\konzol.deps.json
+C:\Users\b1nagmat2\Desktop\Asztalalk\doga0319\konzol\konzol\bin\Debug\net10.0\konzol.runtimeconfig.json
+C:\Users\b1nagmat2\Desktop\Asztalalk\doga0319\konzol\konzol\bin\Debug\net10.0\konzol.dll
+C:\Users\b1nagmat2\Desktop\Asztalalk\doga0319\konzol\konzol\bin\Debug\net10.0\konzol.pdb
+C:\Users\b1nagmat2\Desktop\Asztalalk\doga0319\konzol\konzol\obj\Debug\net10.0\konzol.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\b1nagmat2\Desktop\Asztalalk\doga0319\konzol\konzol\obj\Debug\net10.0\konzol.AssemblyInfoInputs.cache
+C:\Users\b1nagmat2\Desktop\Asztalalk\doga0319\konzol\konzol\obj\Debug\net10.0\konzol.AssemblyInfo.cs
+C:\Users\b1nagmat2\Desktop\Asztalalk\doga0319\konzol\konzol\obj\Debug\net10.0\konzol.csproj.CoreCompileInputs.cache
+C:\Users\b1nagmat2\Desktop\Asztalalk\doga0319\konzol\konzol\obj\Debug\net10.0\konzol.sourcelink.json
+C:\Users\b1nagmat2\Desktop\Asztalalk\doga0319\konzol\konzol\obj\Debug\net10.0\konzol.dll
+C:\Users\b1nagmat2\Desktop\Asztalalk\doga0319\konzol\konzol\obj\Debug\net10.0\refint\konzol.dll
+C:\Users\b1nagmat2\Desktop\Asztalalk\doga0319\konzol\konzol\obj\Debug\net10.0\konzol.pdb
+C:\Users\b1nagmat2\Desktop\Asztalalk\doga0319\konzol\konzol\obj\Debug\net10.0\konzol.genruntimeconfig.cache
+C:\Users\b1nagmat2\Desktop\Asztalalk\doga0319\konzol\konzol\obj\Debug\net10.0\ref\konzol.dll

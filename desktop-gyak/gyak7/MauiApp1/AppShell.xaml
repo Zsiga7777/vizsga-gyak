@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="MauiApp1.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:MauiApp1.Views"
+    Title="MauiApp1">
+
+    <FlyoutItem Title="Főoldal">
+    <ShellContent
+        ContentTemplate="{DataTemplate local:MainPageView}"/>
+    </FlyoutItem>
+
+    <FlyoutItem Title="Dolgozók">
+        <ShellContent
+     ContentTemplate="{DataTemplate local:ListWorkersView}"/>
+    </FlyoutItem>
+
+    <FlyoutItem Title="Vezérlőpult">
+        <ShellContent
+ ContentTemplate="{DataTemplate local:ControlPanelView}"/>
+    </FlyoutItem>
+
+    <FlyoutItem Title="Dolgozók törlése">
+        <ShellContent
+ContentTemplate="{DataTemplate local:DeleteWorkersView}"/>
+    </FlyoutItem>
+
+</Shell>
