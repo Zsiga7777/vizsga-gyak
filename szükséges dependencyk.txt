@@ -11,7 +11,7 @@ npm i axios
 npm i react-router-dom
 npm ireact-toastify
 
-maui/wpf:
+maui:
 CommunityToolkit.Common
 CommunityToolkit.Mvvm
 CommunityToolkit.Maui

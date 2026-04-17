@@ -1,0 +1,5 @@
+1. statikus web
+2. console
+3. backend
+4. react
+5 desktop
