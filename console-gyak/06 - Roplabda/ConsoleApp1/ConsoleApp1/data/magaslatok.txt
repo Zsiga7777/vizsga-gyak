@@ -1,0 +1,33 @@
+Szpin Renáta	165	liberó	magyar	Rabita Baku	Azerbajdzsán
+Anna Werbliñska	178	feladó	lengyel	Fatum Nyíregyháza	Magyarország
+Tanja Matic	178	fogató	szerb	Fenerbahçe Acibadem	Törökország
+Tálas Zsuzsanna	178	feladó	magyar	Partizan	Szerbia
+Sabina Altynbekova	182	fogató	azer	Asystel Novara	Lengyelország
+Gözde Kirdar Sonsirma	183	fogató	török	Telekom Baku	Azerbajdzsán
+Francesca Piccinini	184	ütõ	olasz	Partizan	Szerbia
+Yelizaveta Mammadova	184	fogató	azer	Telekom Baku	Azerbajdzsán
+Tandara Caixeta	184	fogató	brazil	Linemár Békéscsaba	Magyarország
+Debby Stam-Pilon	184	sánc	holland	Fenerbahçe Acibadem	Törökország
+Charlotte Leys	184	fogató	belga	Besiktas	Törökország
+Agnieszka Bednarek-Kasza	185	sánc	lengyel	AGIL Volley	Olaszország
+Eleonora Dziêkiewicz	185	sánc	lengyel	Linemár Békéscsaba	Magyarország
+Bodnár Dorottya	185	ütõ	magyar	Imoco Volley	Olaszország
+Ivana Ðerisilo	185	ütõ	szerb	Crvena Zvezda	Szerbia
+Jaqueline Carvalho	186	ütõ	brazil	Crvena Zvezda	Szerbia
+Logan Tom	186	ütõ	amerikai	Rabita Baku	Azerbajdzsán
+Naz Aydemir	186	fogató	török	Imoco Volley	Olaszország
+Nikola Radosová	186	ütõ	szlovák	FATUM Nyíregyháza	Magyarország
+Neslihan Demir	187	fogató	török	Rabita Baku	Azerbajdzsán
+Martina Guiggi	188	sánc	olasz	Linemár Békéscsaba	Magyarország
+Marianne Steinbrecher	188	ütõ	brazil	Fenerbahçe Acibadem	Törökország
+Malgorzata Glinka-Mogentale	191	ütõ	lengyel	AGIL Volley	Olaszország
+Gabrielle Reece	191	ütõ	amerikai	Crvena Zvezda	Szerbia
+Lise Van Hecke	191	fogató	belga	Besiktas	Törökország
+Anja Spasojevic	191	fogató	szerb	Besiktas	Törökország
+Lioubov Sokolova Kiliç	192	ütõ	orosz	Asystel Novara	Lengyelország
+Robin de Kruijf	193	ütõ	holland	Asystel Novara	Lengyelország
+Milena Raic	193	sánc	szerb	Partizan	Szerbia
+Cristina Chirichella	195	ütõ	olasz	AGIL Volley	Olaszország
+Jovana Brakocevic	196	ütõ	szerb	Fatum Nyíregyháza	Magyarország
+Thaísa Menezes	196	ütõ	brazil	Fatum Nyíregyháza	Magyarország
+Yekaterina Gamova	202	ütõ	orosz	Telekom Baku	Azerbajdzsán

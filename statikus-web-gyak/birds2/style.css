@@ -1,0 +1,42 @@
+.navbar-nav{
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-item{
+    margin-left: 20px;
+}
+
+h1{
+    text-align: center;
+    margin-top: 20px;
+}
+
+#szov1{
+    text-align: justify;
+}
+
+#fels{
+    margin: auto;
+    width: fit-content;
+}
+#fels li::marker{
+    color: #0d6efd;
+}
+#fels li{
+    width: fit-content;
+}
+
+.card-text{
+    text-align: justify;
+}
+
+.card{
+    height: 100%;
+}
+
+@media screen and (max-width : 992px) {
+    .navbar-nav{
+        flex-direction: column;
+    }
+}
