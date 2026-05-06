@@ -18,7 +18,7 @@ const AllPizza = () => {
 
   useEffect(() => {
     apiClient
-      .get("/pizzzzzak")
+      .get("/pizzak")
       .then((response) => setPizzak(response.data))
       .catch((error) => {
         toast.error("A pizzák betöltése sikertelen volt");

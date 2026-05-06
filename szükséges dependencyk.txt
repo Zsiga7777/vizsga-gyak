@@ -9,7 +9,10 @@ react:
 npm create vite@latest . -- --template react-ts
 npm i axios
 npm i react-router-dom
-npm ireact-toastify
+npm i react-toastify
+npm i react-bootstrap
+npm i vitest  
+npm i eslint --save-dev
 
 maui:
 CommunityToolkit.Common
