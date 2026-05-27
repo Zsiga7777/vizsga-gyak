@@ -1,5 +1,7 @@
+// @vitest-environment happy-dom
+
 import { renderToString } from "react-dom/server";
-import { BrowserRouter } from "react-router";
+import { BrowserRouter } from "react-router-dom";
 import {describe, expect, it } from "vitest";
 import Header from "./components/Header";
 

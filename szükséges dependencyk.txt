@@ -11,8 +11,9 @@ npm i axios
 npm i react-router-dom
 npm i react-toastify
 npm i react-bootstrap
-npm i vitest  
-npm i eslint --save-dev
+npm i bootstrap
+npm i vitest
+npm i happy-dom  
 
 maui:
 CommunityToolkit.Common

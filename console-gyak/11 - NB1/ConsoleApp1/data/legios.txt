@@ -1,0 +1,100 @@
+Vasas FC: 
+	-Kire Ristevski középső védő 700 eur
+	-Manjrekar James védekező középpályás 200 eur
+	-Nikolaos Vergos középcsatár 250 eur
+	-Evgen Pavlov középcsatár 250 eur
+	-Vit Benes középső védő 400 eur
+	-Jan Simunek középső védő 250 eur
+	-Felix Burmeister középső védő 300 eur
+	-Lubos Kamenar kapus 250 eur
+
+Ferencvárosi TC: 
+	-Joseph Paintsil támadó középpályás 400 eur
+	-Rui Pedro támadó középpályás 750 eur
+	-Stefan Spirovski védekező középpályás 600 eur
+	-Marcos Pedroso bal oldali védő 900 eur
+	-Julian Koch védekező középpályás 300 eur
+	-Janek Sternberg bal oldali védő 250 eur
+	-Moutari Amadou bal szélső 700 eur
+	-Fernando Gorriarán belső középpályás 1100 eur
+	-Miha Blazic középső védő 450 eur
+
+Puskás Akadémia FC: 
+	-Ulysse Diallo középcsatár 250 eur
+	-Stipe Bacelic-Grgic belső középpályás 300 eur
+	-Branislav Danilovic kapus 300 eur
+	-Jonathan Heris középső védő 600 eur
+	-Patrick Mevoungou védekező középpályás 200 eur
+	-Liridon Latifi jobb oldali középpályás 750 eur
+	-Antonio Perosevic középcsatár 450 eur
+	-Josip Knezevic támadó középpályás 600 eur
+
+Debreceni VSC: 
+	-Aleksandar Jovanovic jobb oldali középpályás 300 eur
+	-Haris Tabakovic középcsatár 250 eur
+	-Danilo Sekulic védekező középpályás 350 eur
+	-Ioan Filip védekező középpályás 350 eur
+	-Justin Mengolo jobb szélső 350 eur
+	-Ján Novota kapus 300 eur
+
+Budapest Honvéd FC: 
+	-Davide Lanzafame középcsatár 1200 eur
+	-Patrick Ikenne-King jobb oldali védő 400 eur
+	- Danilo középcsatár 300 eur
+	-Kadima Kabangu középcsatár 125 eur
+
+Szombathelyi Haladás: 
+	-Stef Wils középső védő 225 eur
+	-David Williams középcsatár 450 eur
+	- Myke középcsatár 200 eur
+	-Patrik Pinte középcsatár 125 eur
+	-Funsho Bamgboye bal szélső 75 eur
+	-Karol Mészáros jobb szélső 200 eur
+
+Paksi FC: 
+	-Péter Molnár kapus 200 eur
+
+Mezőkövesd Zsóry FC: 
+	-Lazar Veselinovic középcsatár 300 eur
+	-Tomas Tujvel kapus 175 eur
+	-Róbert Pillár középső védő 200 eur
+	-Dávid Hudák középső védő 275 eur
+	-Jakub Brasen támadó középpályás 250 eur
+	-Paul Keita védekező középpályás 300 eur
+	-Máté Köböl védekező középpályás 75 eur
+	-Martin Krnac kapus 150 eur
+	-Tomas Majtan középcsatár 150 eur
+	-Frano Mlinar védekező középpályás 350 eur
+
+Diósgyőri VTK: 
+	- Nono belső középpályás 350 eur
+	-Diego Vela jobb oldali középpályás 350 eur
+	-Ákos Szarka középcsatár 300 eur
+	-Dejan Karan középső védő 300 eur
+	-Nikolaos Ioannidis középcsatár 450 eur
+
+Újpest FC: 
+	-Alassane Diallo belső középpályás 200 eur
+	-Viktor Angelov hátravont csatár 150 eur
+	-Obinna Nwobodo belső középpályás 150 eur
+	-Filip Pajovic kapus 300 eur
+	-Anton Jönsson Salétros védekező középpályás 250 eur
+	-Mijusko Bojovic középső védő 300 eur
+	-Remzifaik Selmani bal szélső 150 eur
+	-Bojan Sankovic védekező középpályás 250 eur
+
+Balmazújváros FC: 
+	-Yuri Gabovda jobb oldali védő 300 eur
+	-Bachana Arabuli középcsatár 300 eur
+	-Irakli Maisuradze védekező középpályás 300 eur
+	-Eke Uzoma bal oldali védő 175 eur
+	-Ante Batarelo védekező középpályás 150 eur
+
+Videoton FC: 
+	-Anel Hadzic védekező középpályás 800 eur
+	- Stopira bal oldali védő 750 eur
+	-Marko Scepovic középcsatár 1200 eur
+	-Ezekiel Henty középcsatár 1100 eur
+	-Danko Lazovic hátravont csatár 500 eur
+	-Loïc Nego jobb oldali védő 900 eur
+

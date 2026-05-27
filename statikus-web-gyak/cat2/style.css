@@ -1,0 +1,46 @@
+.navbar-nav{
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-item{
+    margin-right: 20px;
+}
+
+.navbar-brand >img{
+    border-radius: 360px;
+    height: 40px;
+    margin-left: 20px;
+}
+
+h1{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.saj{
+    text-align: justify;
+}
+
+.row{
+    margin-top: 30px;
+}
+
+.card{
+    height: 100%;
+}
+
+.card-img-top{
+    height: 300px;
+}
+
+.card-text{
+    text-align: justify;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar-nav{
+        display: flex;
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             xmlns:model="clr-namespace:MauiApp1"
+             xmlns:viewmodels="clr-namespace:MauiApp1.ViewModels"
+             x:DataType="viewmodels:MainPageViewModel"
+             x:Class="MauiApp1.MainPage"
+             x:Name="this">
+    <ContentPage.Behaviors>
+        <toolkit:EventToCommandBehavior Command="{Binding AppearingCommand}" EventName="Appearing" BindingContext="{Binding Source={x:Reference this}, Path=BindingContext}"/>
+    </ContentPage.Behaviors>
+    <StackLayout>
+        <Button Command="{Binding SaveNewCommand}" Text="Új hozzáadása"/>
+        <ScrollView >
+            <CollectionView ItemsSource="{Binding Mobiles}">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate x:DataType="model:MobileModel" >
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Label Grid.Column="0" Text="{Binding Manufacturer}"/>
+                            <Label Grid.Column="1" Text="{Binding Name}"/>
+                            <Label Grid.Column="2" Text="{Binding Price}"/>
+                            <Button Grid.Column="3" Text="Delete" Command="{Binding BindingContext.DeleteCommand, Source={x:Reference this}}" CommandParameter="{Binding Id}"/>
+                            <Button Grid.Column="4" Text="Update" Command="{Binding BindingContext.UpdateCommand, Source={x:Reference this}}" CommandParameter="{Binding Id}"/>
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </ScrollView>
+    </StackLayout>
+</ContentPage>

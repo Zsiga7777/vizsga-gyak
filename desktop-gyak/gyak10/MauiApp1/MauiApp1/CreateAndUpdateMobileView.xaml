@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.CreateAndUpdateMobileView"
+              xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+ xmlns:model="clr-namespace:MauiApp1"
+ xmlns:viewmodels="clr-namespace:MauiApp1.ViewModels"
+ x:DataType="viewmodels:CreateAndUpdateMobileViewModel"
+              x:Name="this">
+    <VerticalStackLayout>
+        <Label Text="Telefon gyártója: "/>
+        <Entry Text="{Binding  Mobile.Manufacturer}"/>
+        <Label Text="Telefon neve: "/>
+        <Entry Text="{Binding  Mobile.Name}"/>
+        <Label Text="Telefon ára: "/>
+        <Entry Text="{Binding  Mobile.Price}"/>
+        <Button Text="Vissza" Command="{Binding GoBackAsyncCommand}"/>
+        <Button Text="Mentés" Command="{Binding SaveCommand}"/>
+    </VerticalStackLayout>
+</ContentPage>

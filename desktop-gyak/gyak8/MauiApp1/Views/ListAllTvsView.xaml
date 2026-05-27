@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.Views.ListAllTvsView"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             xmlns:models ="clr-namespace:MauiApp1.Models"
+xmlns:viewModels="clr-namespace:MauiApp1.ViewModels"
+x:DataType="viewModels:ListAllTvsViewModel"
+x:Name="this"
+             Title="">
+    <ContentPage.Behaviors>
+        <toolkit:EventToCommandBehavior EventName="Appearing" Command="{Binding OnAppearingCommand}" BindingContext="{Binding Source={x:Reference this}, Path=BindingContext}"/>
+    </ContentPage.Behaviors>
+    <VerticalStackLayout>
+        <Button Text="Tv hozzáadás" Command="{Binding OnAddCommand}"/>
+        <CollectionView ItemsSource="{Binding Tvs}">
+            <CollectionView.ItemTemplate>
+                <DataTemplate x:DataType="models:TvModel">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="2*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Label Text="{Binding Name}" Grid.Column="0"/>
+                        <Label Text="{Binding Description}" Grid.Column="1"/>
+                        <Label Text="{Binding Price}" Grid.Column="2"/>
+                        <Button Text="Törlés" Command="{Binding BindingContext.OnRemoveCommand , Source={x:Reference this}}" CommandParameter="{Binding Name}" Grid.Column="3"/>
+                        <Button Text="Szerkesztés" Command="{Binding BindingContext.OnUpdateCommand , Source={x:Reference this}}" CommandParameter="{Binding Name}" Grid.Column="4"/>
+                    </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </VerticalStackLayout>
+</ContentPage>

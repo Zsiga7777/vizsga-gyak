@@ -35,6 +35,7 @@ const Cart = () => {
                     {cart.map((id, index) => {
                         const movie = movies.find((m) => m.id == id)
                         return (
+                            <Col>
                             <Card style={{width : "25rem"}}>
                                 <Card.Body>
                                     <Card.Title>
@@ -46,7 +47,7 @@ const Cart = () => {
                                         Ár: <strong>{movie?.price} Ft</strong>
                                     </Card.Text>
                                 </Card.Body>
-                                <Card.Footer>
+                                <Card.Footer style={{display : "flex", justifyContent : "end"}}>
                                     <Button onClick={() => {
                                         remove(index)
                                     }} variant="danger">
@@ -54,6 +55,7 @@ const Cart = () => {
                                     </Button>
                                 </Card.Footer>
                             </Card>
+                            </Col>
                         )
                     })}
                 </Row>
@@ -64,7 +66,7 @@ const Cart = () => {
                         Összesen: <strong>{sum} Ft</strong>
                     </h2>
                     </Col>
-                    <Col style={{marginLeft: 700}}>
+                    <Col style={{display:"flex", justifyContent:"end"}}>
                         <Button variant="secondary" onClick={() => setCart([])}>
                             Kosár ürítése
                         </Button>

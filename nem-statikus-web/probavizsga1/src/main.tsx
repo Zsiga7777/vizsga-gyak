@@ -5,6 +5,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Header from "./components/Header";
 import All from "./pages/All";
 import Cart from "./pages/Cart";
+import "bootstrap/dist/css/bootstrap.min.css"
 
 createRoot(document.getElementById("root")!).render(
     <StrictMode>
